@@ -13,7 +13,13 @@ const iconFiles = iconSizes.map(
 //   "/manifest.webmanifest",
 // ].concat(iconFiles);
 
-const FILES_TO_CACHE = ['/', '/index.html', 'index.js', '/db.js', '/style.css'];
+const FILES_TO_CACHE = [
+  '/',
+  '/index.html',
+  'index.js',
+  '/db.js',
+  '/styles.css',
+];
 
 // install
 self.addEventListener('install', function (evt) {
